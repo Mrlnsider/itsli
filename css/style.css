@@ -1,0 +1,24 @@
+#slider {
+  position: relative;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+#slider button {
+  position: absolute;
+  top: 50%;
+  font-size: 42px;
+  z-index: 100;
+  background: transparent;
+  border: 10px;
+  outline: none;
+  color: white;
+  transition: 1s;
+  outline: none;
+  opacity: 0.2;
+}
+#slider button:hover { 
+  opacity: 1;
+  cursor: pointer;
+}
