@@ -67,9 +67,9 @@ const Slider = function ( sourseData ) {
       }, 1000 )
     }
     this.btnLeft = this.createElem ( 'button', this.container )
-    this.btnLeft.onclick = () => this.changePicture ( "right" )
+    this.btnLeft.onclick = () => this.changePicture ( "left" )
     this.btnRight = this.createElem ( 'button', this.container )
-    this.btnRight.onclick = () => this.changePicture ( "left" )
+    this.btnRight.onclick = () => this.changePicture ( "right" )
     this.btnLeft.innerHTML = '<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>'
     this.btnRight.innerHTML = '<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'
     this.btnLeft.style = `
